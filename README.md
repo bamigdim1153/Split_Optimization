@@ -31,7 +31,7 @@ python src/build_project_cards.py
 python src/verify_portfolio.py
 ```
 
-The generator creates120 fictional events. Evaluation uses a90/30 disjoint-group holdout, training-only tuning, seven seeds, simple baselines and paired ablations. Ridge has lower holdout error than random forest in this demonstration; model complexity is not treated as evidence of superiority.
+The generator creates 120 fictional events. Evaluation uses a 90/30 disjoint-group holdout, training-only tuning, seven seeds, simple baselines and paired ablations. Ridge has lower holdout error than random forest in this demonstration; model complexity is not treated as evidence of superiority.
 
 ## Retrieve versioned teaching data
 
@@ -55,4 +55,4 @@ The runner executes trusted local notebook code without Jupyter; do not run unre
 
 Company data are not included; the mining prototype uses synthetic data until General Management approves academic use. AI assistance is declared in provenance. 
 
-Additional Exercise7/9 Your turn modifications are executed in [the addendum](session_07/your_turn_addendum/README.md).
+Additional Exercise 7/9 Your turn modifications are executed in [the addendum](session_07/your_turn_addendum/README.md).
