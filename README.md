@@ -1,5 +1,5 @@
 # Split Optimization
-Humberto Sanchez 
+Humberto Sánchez 
 
 PhD in Deep Tech, UNMSM
 
@@ -7,9 +7,7 @@ Research Methods portfolio · Dr. Loveleen Gaur · Sessions 1–7
 
 The proposed research concerns fragmentation prediction and economic assessment in sublevel stoping at one underground mine in southern Peru. The implemented course prototype uses **synthetic data**; public Wisconsin data are used only in the supplied teaching exercises. No company records or field results are published.
 
-## Submission
-
-[Complete portfolio](submission/PORTFOLIO_SESSIONS_01_07.pdf) · [Readable portfolio](submission/PORTFOLIO_SESSIONS_01_07.md) · [Requirement checklist](control/requirements.md)
+## Deliverables by session
 
 | Session | Deliverable |
 |---|---|
@@ -30,7 +28,7 @@ python -m pip install -r requirements-lock.txt
 python src/generate_synthetic.py
 python src/run_experiment.py
 python src/build_project_cards.py
-python src/verify_portfolio.py
+
 ```
 
 The generator creates 120 fictional events. Evaluation uses a 90/30 disjoint-group holdout, training-only tuning, seven seeds, simple baselines and paired ablations. Ridge has lower holdout error than random forest in this demonstration; model complexity is not treated as evidence of superiority.
