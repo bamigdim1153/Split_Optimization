@@ -20,4 +20,4 @@ In my mine we observe 120 historical blasts and projects approximately 180 new e
 
 General Management authorization for design trials is the main uncertainty; academic-use and publication permissions must also be clarified. If trials are not authorized, conclusions will concern predictions and analytical comparisons, without claiming field-demonstrated causal savings.
 
-References: [bibliography](../session_04/references.md), M1, R01 and R03. Draft for the student's review and defense.
+References: [bibliography](../session_04/references.md), M1, R01 and R03.
