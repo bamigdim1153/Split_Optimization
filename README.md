@@ -1,6 +1,8 @@
 # Split Optimization
 Humberto Sanchez 
+
 PhD in Deep Tech, UNMSM
+
 Research Methods portfolio · Dr. Loveleen Gaur · Sessions 1–7
 
 The proposed research concerns fragmentation prediction and economic assessment in sublevel stoping at one underground mine in southern Peru. The implemented course prototype uses **synthetic data**; public Wisconsin data are used only in the supplied teaching exercises. No company records or field results are published.
