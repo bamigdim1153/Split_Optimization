@@ -1,0 +1,30 @@
+{
+  "seed12_accuracy": 1.0,
+  "seed12_repeated_accuracy": 1.0,
+  "same_seed_repeat_identical": true,
+  "twenty_seed_mean": 0.9685314685314687,
+  "test_rows_with_patient_also_in_train": 41,
+  "test_rows": 143,
+  "honest_comparators": [
+    {
+      "Model": "Dumb model: always guess 'benign'",
+      "Mean": 0.6274181027790716,
+      "SD": 0.003988768313881978,
+      "Tests": 50
+    },
+    {
+      "Model": "Simple model: logistic regression",
+      "Mean": 0.9782083527402579,
+      "SD": 0.013533516177218555,
+      "Tests": 50
+    },
+    {
+      "Model": "DeepOnco-MLP, done right",
+      "Mean": 0.9595746002173575,
+      "SD": 0.015692566872537412,
+      "Tests": 50
+    }
+  ],
+  "data_origin": "PUBLIC_WISCONSIN_TEACHING_DATA",
+  "paper_status": "INVENTED_INSTRUCTOR_EXAMPLE"
+}

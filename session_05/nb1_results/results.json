@@ -1,0 +1,7 @@
+{
+  "seed_mean_accuracy": 0.9727777777777774,
+  "seed_sample_sd": 0.0071872748714636395,
+  "noise_leaky_accuracy": 0.8699999999999999,
+  "noise_clean_accuracy": 0.5,
+  "data_origin": "PUBLIC_TEACHING_DATA_AND_SYNTHETIC_NOISE"
+}

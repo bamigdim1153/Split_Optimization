@@ -1,0 +1,112 @@
+{
+  "data_origin": "SYNTHETIC",
+  "remote_type": "local filesystem",
+  "fresh_clone_initially_missing_data": true,
+  "source_sha256": "7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332",
+  "restored_sha256": "7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332",
+  "hashes_match": true,
+  "dvc_version": "DVC version: 3.59.2 (pip)",
+  "commands": [
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "init",
+        "-b",
+        "main"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "dvc",
+        "init",
+        "--no-scm"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "dvc",
+        "add",
+        "synthetic_blasts.csv"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "dvc",
+        "remote",
+        "add",
+        "-d",
+        "local-demo",
+        "<workspace>\\local_remote"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "dvc",
+        "push"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "add",
+        ".gitignore",
+        ".dvc/config",
+        "synthetic_blasts.csv.dvc"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "C:/Program Files/Git/cmd/git.exe",
+        "-c",
+        "user.name=Course Automation - AI assisted",
+        "-c",
+        "user.email=course-automation@invalid",
+        "commit",
+        "-m",
+        "Track synthetic data for DVC roundtrip"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "dulwich.porcelain.clone",
+        "<workspace>/producer",
+        "<workspace>/fresh_clone"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "dvc",
+        "pull"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "dvc",
+        "version"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "limitation": "Local roundtrip; not cloud backup or company-data authorization."
+}

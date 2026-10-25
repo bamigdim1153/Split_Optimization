@@ -1,0 +1,9 @@
+{
+  "public_data": true,
+  "same_seed_repeat_identical": true,
+  "number_of_seeds": 5,
+  "mean_of_seed_cv_means": 0.978576,
+  "sample_sd_of_seed_cv_means": 0.0031341314586341065,
+  "actual_content_commits": 6,
+  "note": "These are actual new automated workshop commits, not historical student work."
+}

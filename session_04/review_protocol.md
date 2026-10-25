@@ -1,17 +1,7 @@
-# Session 4 — Mini review and PRISMA protocol
+# Session 4 — Executed mini-review
 
-**Status:** exploratory web discovery and 12 real candidate publications at different verification levels. This is not a completed systematic review. Candidate-list size is not the number of results from a scientific database.
+Question: which fragmentation-prediction methods and operational evaluations can inform the proposed underground-stoping study?
 
-Review question: which methods predict fragmentation in underground blasting, and how are downstream performance and costs evaluated?
+The earlier candidate protocol has now been executed as a bounded rapid mini-review with documented deviations. Start with [search log](search_log.md), then [mini review](mini_review.md), [screening register](screening_register.csv), [extraction/appraisal](extraction_and_appraisal.csv), [gap table](candidate_gaps.md) and [reconciled flow](prisma_status.md). The RIS library contains the twelve included reports, tagged as ten priority and two supporting items.
 
-Proposed queries:
-
-- Q1: ("rock fragmentation" OR "blast fragmentation") AND (underground OR "sublevel stoping" OR "longhole stoping") AND (predict* OR "machine learning" OR regression).
-- Q2: ("rock fragmentation" OR oversize OR boulder*) AND underground AND (loading OR haulage OR transport OR cost* OR productivity).
-- Q3: a Spanish-language equivalent for Peruvian thesis repositories; record the exact query when executed.
-
-Proposed sources: Semantic Scholar, Scopus/WoS if accessible, ALICIA and institutional thesis repositories. These database searches have not been executed. Proposed period 2015–2026 and English/Spanish; earlier methodological classics are background only.
-
-Include empirical/modeling research on fragmentation or operational effects with identifiable variables/evaluation. Prioritize stoping and classify caving, tunnels and surface work separately. Record full-text eligibility, exclusions and overlapping thesis/article datasets; do not count the same study twice.
-
-See [references](references.md), [candidate register](candidates.csv), [candidate gaps](candidate_gaps.md) and [PRISMA status](prisma_status.md). Final screening, full-text synthesis and diagram are pending; no counts are invented.
+The course specifies Semantic Scholar/Scopus/WoS and the official PRISMA tool. Semantic Scholar returned HTTP 429 twice; Crossref was an explicitly disclosed fallback. The locally generated flow is not an official-tool export. These specific compliance items remain open even though screening, synthesis and counts are now supported by real retrieved records. Student library import and course-platform submission remain personal actions.

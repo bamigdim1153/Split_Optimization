@@ -1,0 +1,131 @@
+[
+  {
+    "id": "C08",
+    "canonical_url": "https://doi.org/10.3390/app14146372",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "C08_0.pdf",
+        "sha256": "b56e04c5bb4a705088b3e6a8c79854ffb396b91408db2c1584172ef26410e986"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "C14",
+    "canonical_url": "https://doi.org/10.1002/dug2.12089",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "C14_0.pdf",
+        "sha256": "f751f2b0955c21355859f686dc7b7474f0960fea4e10e4099abc09f653b7a5fa"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "C27",
+    "canonical_url": "https://doi.org/10.1007/s00603-016-1094-x",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "C27_1.pdf",
+        "sha256": "5f693f2c92341b7675068adc6c05fac73c30427f627b21eb08486cc29432ec56"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "C29",
+    "canonical_url": "https://doi.org/10.1007/s00603-026-06028-3",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "C29_0.pdf",
+        "sha256": "d9c7c0890c07e9024dcae8c68ac8437f7617a84e46dd63ef800c718c3ee3ff3c"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R01",
+    "canonical_url": "https://journals.sagepub.com/doi/10.1177/25726668241301880",
+    "access": "primary full text inspected through web reader",
+    "local_pdf_hashes": [],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R03",
+    "canonical_url": "https://doi.org/10.3390/mining2020013",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "R03_0.pdf",
+        "sha256": "ca8885aac17ed84d946ed28338f1832daba2b819f4805c50b8cb05daa826c414"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R05",
+    "canonical_url": "https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A1751901",
+    "access": "primary full text inspected through web reader",
+    "local_pdf_hashes": [],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R06",
+    "canonical_url": "https://papers.acg.uwa.edu.au/p/2205_26_Manzoor/",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "R06_0.pdf",
+        "sha256": "f84ffb5840c69b27475311e28278ca6495aa5dafa9d930e7acbb60a69cc622be"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R09",
+    "canonical_url": "https://rte.espol.edu.ec/index.php/tecnologica/en/article/view/1356",
+    "access": "primary full text inspected through web reader",
+    "local_pdf_hashes": [],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R10",
+    "canonical_url": "https://ume.rgf.bg.ac.rs/index.php/ume/article/view/164",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "R10_retrieved.pdf",
+        "sha256": "c9805cf20bd9a0737d9e2f425c9689396cf9846221298424b0bc4f8abd6447aa"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R11",
+    "canonical_url": "https://www.mdpi.com/2076-3417/16/15/7673",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "R11_0.pdf",
+        "sha256": "68e5e33fba2d6b93fb6f1fafbe81307bc79f733468a794725a515c4cba51caca"
+      }
+    ],
+    "date": "2026-10-25"
+  },
+  {
+    "id": "R12",
+    "canonical_url": "https://digital.library.adelaide.edu.au/items/692d5d1e-454b-433a-9294-bab89826634a",
+    "access": "downloaded primary/institutional PDF",
+    "local_pdf_hashes": [
+      {
+        "file_label": "R12_0.pdf",
+        "sha256": "861c269a579b1915bbafb54ce1430c27a7c2caec7b0475b4cb84c5b7bd87469c"
+      }
+    ],
+    "date": "2026-10-25"
+  }
+]

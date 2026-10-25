@@ -1,0 +1,6 @@
+6b80ce9d1b65da683f6951130b085a30e0dac3a8|Initialize isolated public teaching project
+7ac749d9fb3b1002833415a1b21f6253da48da3c|Record the public Wisconsin dataset
+1978c25ed8ea4a4749400918fe9da9f6155ca92c|Implement the supplied seeded leakage-free training recipe
+f5292ddd2a3293e0e17a36a7fd92eaa614dbb400|Verify two fresh-interpreter runs with the same seed
+ad9c47ee734a0bd1177812cffe1ac8feee1287ea|Record all five seeds and their code provenance
+5365baf2942d6291c8f49827c3e0b0226594477c|Document direct dependencies and verified expected output

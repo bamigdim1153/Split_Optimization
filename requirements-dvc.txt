@@ -1,0 +1,3 @@
+dvc==3.59.2
+pathspec==0.12.1
+dulwich==1.2.19

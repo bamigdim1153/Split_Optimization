@@ -1,0 +1,26 @@
+name: Synthetic portfolio validation
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  container-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Python 3.12.14 environment
+        run: docker build -t split-portfolio .
+      - name: Run synthetic experiment and documentation check
+        run: docker run --name portfolio-check split-portfolio
+      - name: Export generated evidence
+        run: |
+          mkdir -p container-evidence
+          docker cp portfolio-check:/app/session_05/results_synthetic container-evidence/
+          docker cp portfolio-check:/app/session_07 container-evidence/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-container-evidence
+          path: container-evidence

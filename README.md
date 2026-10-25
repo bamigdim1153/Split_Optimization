@@ -17,9 +17,9 @@
 |---|---|---|
 | 1 | [Paradigm justification](session_01/paradigm.md) | Draft for student review and defense |
 | 2 | [Method-fit matrix](session_02/method_fit_matrix.md) | Proposed scores and weights; not empirical measurements |
-| 3 | [Protocol v0.1](session_03/protocol.md) | Draft; permissions, dates and research budget pending |
-| 4 | [Literature review](session_04/review_protocol.md) | Real candidate references; systematic screening/PRISMA still pending |
-| 5 | [Reproducible synthetic pipeline](session_05/README.md) | Executed demonstration; seven seeds and paired ablations |
+| 3 | [Protocol v0.1](session_03/protocol.md) | One-page oral version plus complete ten-section PPT supplement; real dates/quotations/permissions pending |
+| 4 | [Literature review](session_04/review_protocol.md) | Executed bounded mini-review: 10 priority + 2 supporting reports, screening and reconciled flow; database/tool deviations documented |
+| 5 | [Reproducible synthetic pipeline](session_05/README.md) | Executed synthetic pipeline, NB1/NB3/NB4, MLflow and verified local DVC restoration |
 | 6 | [Reproducibility audit and labs](session_06/README.md) | Course checklist, real paper/code audit and Your turn exercises |
 | 7 | [Benchmarking and documentation](session_07/README.md) | Course core exercises and own synthetic-project cards |
 
@@ -47,3 +47,7 @@ Read [requirements and remaining work](control/requirements.md), [evaluation pla
 - [Session 3 PDF](session_03/protocol.pdf)
 
 Local verification: `python src/verify_portfolio.py`. The Session7 [own-project bundle](session_07/session7_deliverable.zip) contains the synthetic cards, code and portable result evidence.
+
+## Completion audit — 25 October 2026
+
+Read the [updated requirement checklist](control/requirements.md), [ten-section protocol supplement](session_03/protocol_extended.md), [completed bounded mini-review](session_04/mini_review.md), and [genuine student/external actions](control/student_actions.md). The repository does not claim full assessment compliance while required source/tool, personal and authorization items remain open.

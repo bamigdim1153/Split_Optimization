@@ -13,3 +13,5 @@ Original bilingual course files remain local and are not uploaded. English teach
 - Exercises 7–12 are extensions/recommended. No EU-law applicability or conformity claim is made for this mine.
 
 Company information is reported, not audited: one southern-Peruvian mine; production stopes using sublevel stoping; 120 historical blasts; approximately 30 future blasts/month for at least six months; approximately 90% estimated traceability; post-transport Split Desktop measurement; standard AEGIS/technical design; budget by month; no established acceptable-P80 criterion; permissions pending.
+
+On 2026-10-25 AI-assisted work executed NB1/NB3 and a local NB4 adaptation, conducted a bounded Crossref fallback and full-text appraisal, and verified a local DVC push/clone/pull. Detailed source/tool deviations are retained. The actual NB4 mini-project history uses an automation identity; it is not represented as past student work.

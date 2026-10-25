@@ -2,3 +2,5 @@
 *.png -text
 *.pdf -text
 *.zip -text
+
+*.bundle -text
