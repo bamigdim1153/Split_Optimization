@@ -51,3 +51,7 @@ Local verification: `python src/verify_portfolio.py`. The Session7 [own-project 
 ## Completion audit — 25 October 2026
 
 Read the [updated requirement checklist](control/requirements.md), [ten-section protocol supplement](session_03/protocol_extended.md), [completed bounded mini-review](session_04/mini_review.md), and [genuine student/external actions](control/student_actions.md). The repository does not claim full assessment compliance while required source/tool, personal and authorization items remain open.
+
+## Public DVC stranger test
+
+With Git, Python3.12.14 and the optional DVC dependencies installed: clone this repository, run `python -m pip install -r requirements-dvc.txt`, then `python -m dvc pull`. This restores `data/versioned/blasts_SYNTHETIC.csv` from the public HTTP DVC cache configured in `.dvc/config`. Its SHA256 must be `7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332`. The ordinary synthetic pipeline uses the identical tracked teaching copy at `data/synthetic/blasts_SYNTHETIC.csv`. See Session5 for the recorded fresh-clone test.

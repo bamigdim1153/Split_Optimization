@@ -1,0 +1,5 @@
+[core]
+    no_scm = True
+    remote = public-synthetic-cache
+['remote "public-synthetic-cache"']
+    url = https://raw.githubusercontent.com/bamigdim1153/Split_Optimization/main/data/dvc_remote

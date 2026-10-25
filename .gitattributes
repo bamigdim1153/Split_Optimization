@@ -4,3 +4,5 @@
 *.zip -text
 
 *.bundle -text
+
+data/dvc_remote/files/** -text
