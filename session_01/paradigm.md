@@ -14,7 +14,7 @@ Design science is proposed because the intended contribution is to build and eva
 
 ## 4. Implications
 
-The student reports 120 historical blasts and projects approximately 180 new events over at least six months, subject to data quality and permissions. Simple and ML predictors will be compared without assuming a winner; development and prospective validation will be separated. Split Desktop measurements after transport describe material at that stage, not directly at the original face. The prototype and reproducible protocol are candidate contributions whose novelty requires literature review. Mining Technology and Mining are preliminary thematic publication venues, not guaranteed outlets [R01, R03].
+In my mine we observe 120 historical blasts and projects approximately 180 new events over at least six months, subject to data quality and permissions. Simple and ML predictors will be compared without assuming a winner; development and prospective validation will be separated. Split Desktop measurements after transport describe material at that stage, not directly at the original face. The prototype and reproducible protocol are candidate contributions whose novelty requires literature review. Mining Technology and Mining are preliminary thematic publication venues, not guaranteed outlets [R01, R03].
 
 ## 5. One doubt or tension
 
