@@ -1,6 +1,6 @@
 # Split Optimization
-Humberto Sanchez - UNMSM
-
+Humberto Sanchez 
+PhD in Deep Tech, UNMSM
 Research Methods portfolio · Dr. Loveleen Gaur · Sessions 1–7
 
 The proposed research concerns fragmentation prediction and economic assessment in sublevel stoping at one underground mine in southern Peru. The implemented course prototype uses **synthetic data**; public Wisconsin data are used only in the supplied teaching exercises. No company records or field results are published.
@@ -49,7 +49,7 @@ python src/execute_notebook.py notebooks/session_06_english.ipynb session_06/lab
 python src/execute_notebook.py notebooks/session_07_complete_english.ipynb session_07/course_complete
 ```
 
-The runner executes trusted local notebook code without Jupyter; do not run unreviewed notebooks. Earlier NB1/NB3/NB4 evidence is indexed in Session 5. Statistical examples describe teaching data and overlapping resamples, not mine effects.
+Runs the notebooks without opening Jupyter. Earlier NB1/NB3/NB4 evidence is indexed in Session 5. Statistical examples describe teaching data and overlapping resamples, not mine effects.
 
 [Provenance and assistance](control/provenance.md) 
 
