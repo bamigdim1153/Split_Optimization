@@ -1,0 +1,38 @@
+{
+  "data_origin": "PUBLIC_WISCONSIN_TEACHING_DATA",
+  "paired_fancy_mean": 0.9685314685314685,
+  "paired_baseline_mean": 0.9734265734265733,
+  "paired_mean_difference": -0.0048951048951048955,
+  "naive_paired_t_p": 0.15297630918246977,
+  "mcnemar_exact_p": 0.375,
+  "bootstrap_accuracy_95_interval": [
+    0.9230769230769231,
+    0.986013986013986
+  ],
+  "noise_leaky_accuracy": 0.7276354603322466,
+  "noise_clean_accuracy": 0.5518242508927186,
+  "paired_ablation": [
+    {
+      "configuration": "Remove mean features",
+      "mean_delta": -0.005594405594405605,
+      "sample_sd_delta": 0.008596311848291752,
+      "naive_p": 0.06970737536955265,
+      "holm_p_illustrative": 0.1394147507391053
+    },
+    {
+      "configuration": "Remove worst features",
+      "mean_delta": -0.020279720279720283,
+      "sample_sd_delta": 0.013770681107451655,
+      "naive_p": 0.0011902602750123463,
+      "holm_p_illustrative": 0.0035707808250370386
+    },
+    {
+      "configuration": "Remove scaling",
+      "mean_delta": 0.0,
+      "sample_sd_delta": 0.0,
+      "naive_p": 1.0,
+      "holm_p_illustrative": 1.0
+    }
+  ],
+  "limitation": "Overlapping resamples; illustrative tests, not independent replications or mining findings"
+}

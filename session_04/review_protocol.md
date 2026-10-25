@@ -1,7 +1,5 @@
-# Session 4 — Executed mini-review
+# Session 4 — Completed bounded mini-review
 
-Question: which fragmentation-prediction methods and operational evaluations can inform the proposed underground-stoping study?
+Start with [mini review](mini_review.md), [search log](search_log.md), [ten priority reports](priority_10.csv), [screening register](screening_register.csv), [critical extraction](extraction_and_appraisal.csv), [four candidate gaps](candidate_gaps.md) and [PRISMA flow](prisma_status.md). Actual Semantic Scholar UI searches and matching links now supplement Crossref; API failure is no longer an unattempted named-source requirement. The bounded and post-hoc nature of the search remains explicit.
 
-The earlier candidate protocol has now been executed as a bounded rapid mini-review with documented deviations. Start with [search log](search_log.md), then [mini review](mini_review.md), [screening register](screening_register.csv), [extraction/appraisal](extraction_and_appraisal.csv), [gap table](candidate_gaps.md) and [reconciled flow](prisma_status.md). The RIS library contains the twelve included reports, tagged as ten priority and two supporting items.
-
-The course specifies Semantic Scholar/Scopus/WoS and the official PRISMA tool. Semantic Scholar returned HTTP 429 twice; Crossref was an explicitly disclosed fallback. The locally generated flow is not an official-tool export. These specific compliance items remain open even though screening, synthesis and counts are now supported by real retrieved records. Student library import and course-platform submission remain personal actions.
+The RIS/BibTeX exports contain thirteen reports tagged as ten priority plus three supporting records. The full texts remain with their original publishers. No company data were read or published.

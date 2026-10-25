@@ -57,6 +57,8 @@ def main():
     bundle=out/'session7_deliverable.zip'
     include=[out/'model_card.md',out/'datasheet.md',out/'model_card.json',out/'datasheet.json',out/'documentation_score.txt',out/'documentation_score.json',out/'per_group_metrics_synthetic.csv',ROOT/'requirements.txt',ROOT/'requirements-lock.txt',ROOT/'data/synthetic/blasts_SYNTHETIC.csv',ROOT/'data/synthetic/MANIFEST.json',ROOT/'src/generate_synthetic.py',ROOT/'src/run_experiment.py',ROOT/'src/build_project_cards.py',ROOT/'src/documentation_score.py',ROOT/'session_05/README.md']
     include+=list((ROOT/'session_05/results_synthetic').glob('*.csv'))+list((ROOT/'session_05/results_synthetic').glob('*.png'))+list((ROOT/'session_05/results_synthetic').glob('*.json'))+list((ROOT/'session_05/results_synthetic').glob('*.md'))
+    optional=[out/'exit_ticket.md',out/'course_complete/extension_results.json',out/'course_complete/paired_ablation.csv',out/'course_complete/fig_ablation_errorbars.png',out/'course_complete/fig_compute_matched.png',out/'course_complete/annex_iv_crosswalk.md',ROOT/'notebooks/session_07_complete_english.ipynb']
+    include += [p for p in optional if p.exists()]
     with zipfile.ZipFile(bundle,'w',zipfile.ZIP_DEFLATED) as z:
         for p in include:z.write(p,p.relative_to(ROOT))
     print(text.replace('✓','PASS').replace('✗','FAIL'));print('Saved own-project synthetic cards and reproducibility bundle.')

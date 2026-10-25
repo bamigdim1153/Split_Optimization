@@ -1,19 +1,21 @@
-# Requirement-to-evidence audit — 25 October 2026
+# Sessions 1–7: submission checklist
 
-**The portfolio has been expanded and verified; full assessment compliance is not claimed.** The original course materials, including Sessions6/7, govern the checklist. Folder names are organizational choices.
+Artifacts below have been prepared/executed against the supplied PPTs, notebooks and oral summaries. This is an evidence checklist, not a grade prediction.
 
-| Session/source | Prepared or executed evidence | Exact open items |
+| Session | Course requirement | Final evidence |
 |---|---|---|
-| 1: PPT five-section statement | [Five-section statement](../session_01/paradigm.md), one-page PDF | Student review/defense; reported operational problem still requires real records |
-| 2: PPT E-D-F-C-V matrix, weights100, E<=2 gate | [Three-strategy matrix](../session_02/method_fit_matrix.md), justified scores/weights, sensitivity, PDF | Scores are proposed judgments for student defense |
-| 3: PPT ten headings; oral abstract/review deferral | [One-page oral version](../session_03/protocol.md)/PDF plus [complete ten-section supplement](../session_03/protocol_extended.md), evaluation plan, research-budget estimation basis | Actual calendar, quotations/funding, permissions and technical acceptance criteria cannot be fabricated |
-| 4: PPT slide44, ten papers, database string, PRISMA official tool, four gap types | [Executed bounded review](../session_04/mini_review.md): 10 priority +2 supporting reports; 59-record register, DOI deduplication, 12 full texts, critical extraction, RIS and four cited candidate gaps | Semantic Scholar HTTP429 twice; Crossref fallback not equivalent to prescribed database. Official PRISMA app failed to start. Student Zotero/Mendeley import and platform submission not performed |
-| 5: PPT workshop deliverable and NB1/NB3/NB4 | [Executed evidence](../session_05/README.md): earlier notebooks, actual NB4 six-commit Git bundle, five-seed MLflow, exact repetition; own synthetic seven-seed/ablation pipeline; actual DVC push/fresh clone/pull/hash equality | Local DVC roundtrip and fresh public clone/pull both passed; public read-only synthetic cache available. Docker build/run/artifact export passed in GitHub Actions (see container_ci_evidence.json). Main-repo history is not the student's historical development; no independent human rerun is claimed |
-| 6: PPT39/40/closing and five notebook edits | [Labs and audit](../session_06/README.md): all five edits executed, real paper/code audit, startup attempt and nine-item Yes/Partial/No scorecard | Paper metric reproduction remains incomplete (TensorFlow unavailable in audit environment). Student confirms distinct paper and supplies personal reflection/exit-ticket/screen capture |
-| 7: notebook PartA core and closing deliverable | [Executed core1-6](../session_07/README.md), ten-seed ablation, own synthetic Model Card/Datasheet/bundle and supplied 8/8 completeness output | Instructor acceptance of synthetic own-project application; real-data validation and permissions. Exercises7-12 are extensions, not represented as completed |
+|1| Five-section paradigm statement | [Statement](../session_01/paradigm.md) and one-page PDF |
+|2| Three research strategies, E-D-F-C-V, weights100, E<=2 gate, justified choice | [Matrix](../session_02/method_fit_matrix.md), sensitivity calculation and one-page PDF |
+|3| Ten protocol headings, respecting the oral abstract/review deferral in the earlier one-page version | [Complete ten-section protocol](../session_03/protocol_extended.md), proposed six-month calendar, explicit illustrative research budget and evaluation plan; earlier oral version retained |
+|4| Ten papers, documented named-source search, PRISMA official tool, four cited gap types and reference-manager organization | [Mini-review](../session_04/mini_review.md), [priority ten](../session_04/priority_10.csv), actual Semantic Scholar queries/links,76-record register,13 full-text reports, [official-package flow](../session_04/prisma_status.md), gap table and actual Zotero import/tag evidence |
+|5| Meaningful Git history, DVC remote, identical repeats,5+ MLflow seeds, pinned dependencies, runnable environment and stranger test | [Execution evidence](../session_05/README.md), NB1/NB3/NB4, own seven-seed pipeline, actual public DVC clone/pull, successful Docker CI and subsequent meaningful main-branch commits |
+|6| Six labs and five modifications; audit metadata/setup/leakage/statistics/missing information/score/recommendations; capture/reflection/exit ticket | [Labs/audit](../session_06/README.md), nine-item scorecard, [approved reflection and exit ticket](../session_06/reflection_and_exit_ticket.md), genuine saved-output capture and reading notes |
+|7| Own Model Card, Datasheet and documentation check; benchmarking/ablation practice | [Own synthetic cards](../session_07/README.md), supplied 8/8 completeness check, separate public teaching notebook with all Exercises 1–12 executed, paired ablation, educational crosswalk, environment/bundles and exit ticket |
 
-## Evidence limits and genuine next actions
+## Items that cannot be asserted by preparing files
 
-[Verification](verification.json) checks artifacts and consistency; it is not instructor approval. [Student/external action register](student_actions.md) identifies the tasks that cannot be completed by inventing data, personal experiences, approvals, dates or platform submissions. [Authorization request](authorization_request_draft.md) is a draft, not a sent message or permission.
+The student does not know classmates' article selections, so exclusive paper choice is unverified. Course-platform upload has not been performed because the exact submission destination was not supplied. See [handoff](student_actions.md).
 
-The 120 synthetic rows are invented teaching records. The reported 120 historical company blasts and projected six-month data collection are distinct. No cost reduction, field trial or real-model validation is claimed.
+No company data, permission, field trial, cost saving, independent human replication or instructor approval is invented. The uncalibrated synthetic dataset and public course data are clearly separated. Audit failures and known unknowns are findings to report, not blank sections to conceal. The assigned Model Card contains actual details of the implemented teaching model and generated dataset.
+
+[Verification](verification.json) records technical checks. Review quality is bounded by first-page exports, post-hoc known-item checks, single assisted screening and inaccessible texts, as documented in the search log. The original folder names are an organizational choice.

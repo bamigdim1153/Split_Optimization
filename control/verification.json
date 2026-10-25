@@ -10,6 +10,10 @@
   "private_company_records_included": false,
   "docker_run": "PASS: actual GitHub-hosted Docker build/run/artifact export; see container_ci_evidence.json",
   "dvc_remote_test": "PASS: local push/clone/pull AND fresh public GitHub clone/HTTP DVC pull; identical SHA256",
-  "mini_review": "PASS: reconciled register and bounded full-text review; required database/tool deviations remain",
+  "mini_review": "PASS:76 records,13 full-text reports,10 priority papers with Semantic Scholar evidence; bounded/post-hoc search limitations disclosed",
+  "prisma_official_package": "PASS: PRISMA2020 exported SVG/PNG/PDF in successful CI",
+  "reference_manager": "PASS: actual Zotero import13/tag view10",
+  "session7_extensions": "PASS: Exercises7-12 executed; overlapping-resample limits documented",
+  "session6_reflection": "PASS: student explicitly approved the translated statement; actual output capture included",
   "nb4_workshop": "PASS: five seeds, MLflow, six actual automation commits and repeatability"
 }

@@ -1,0 +1,11 @@
+{
+  "workflow_run": "https://github.com/bamigdim1153/Split_Optimization/actions/runs/40169274478",
+  "commit": "1e1420d775649200951f2df0c087da8c15746b2d",
+  "conclusion": "success",
+  "package": "PRISMA2020",
+  "package_version": "PRISMA2020 package: 1.1.5",
+  "artifact_sha256": "8f7fcba5aa381ee52faf49effc1c01db8294a3becad9561a2b0bcb0370ab2648",
+  "input": "session_04/prisma_official_input.csv",
+  "output": "flow.svg, flow.png, flow.pdf",
+  "counts": "76 identified,15 duplicates,61 screened,41 excluded,20 sought,7 not retrieved,13 included reports; independent-study count unresolved"
+}

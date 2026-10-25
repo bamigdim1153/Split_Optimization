@@ -127,5 +127,17 @@
       }
     ],
     "date": "2026-10-25"
+  },
+  {
+    "id": "S09",
+    "canonical_url": "https://armarocks.net/papers/53.pdf",
+    "access": "downloaded publisher PDF; six pages inspected",
+    "local_pdf_hashes": [
+      {
+        "file_label": "S09.pdf",
+        "sha256": "062b5ef85275fdcf9f4a54e37aaf18190dbc062d28abf8ef2a1ce090a0b118b9"
+      }
+    ],
+    "date": "2026-10-25"
   }
 ]

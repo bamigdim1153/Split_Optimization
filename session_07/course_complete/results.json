@@ -1,0 +1,56 @@
+{
+  "data_origin": "PUBLIC_WISCONSIN_TEACHING_DATA",
+  "weak_accuracy": 0.916083916083916,
+  "tuned_accuracy": 0.9790209790209791,
+  "fancy_accuracy": 0.958041958041958,
+  "seeds_accuracy": [
+    0.951048951048951,
+    0.958041958041958,
+    0.972027972027972,
+    0.958041958041958,
+    0.9790209790209791,
+    0.9790209790209791,
+    0.9790209790209791,
+    0.965034965034965,
+    0.972027972027972,
+    0.972027972027972
+  ],
+  "mean_accuracy": 0.9685314685314685,
+  "population_sd": 0.00951151783827655,
+  "ablation_records": [
+    {
+      "Configuration": "FULL model (all features + scaling)",
+      "Accuracy (mean)": 0.9685,
+      "Std": 0.0095,
+      "\u0394 vs full": 0.0
+    },
+    {
+      "Configuration": "\u2013 remove mean features",
+      "Accuracy (mean)": 0.9629,
+      "Std": 0.0133,
+      "\u0394 vs full": -0.0056
+    },
+    {
+      "Configuration": "\u2013 remove error features",
+      "Accuracy (mean)": 0.9671,
+      "Std": 0.0129,
+      "\u0394 vs full": -0.0014
+    },
+    {
+      "Configuration": "\u2013 remove worst features",
+      "Accuracy (mean)": 0.9483,
+      "Std": 0.0183,
+      "\u0394 vs full": -0.0203
+    },
+    {
+      "Configuration": "\u2013 remove feature scaling",
+      "Accuracy (mean)": 0.9685,
+      "Std": 0.0095,
+      "\u0394 vs full": 0.0
+    }
+  ],
+  "documentation_score": [
+    8,
+    8
+  ]
+}

@@ -14,4 +14,10 @@ Core Exercises1–6 were executed. The ablation Your turn was implemented by inc
 
 These cards describe only the synthetic regression exercise, and contain actual measured synthetic results. A separate [real-project status](real_project_status.md) records what remains unknown. The random forest is an ablation demonstration, not a preselected final winner; Ridge can have lower holdout error.
 
-Exercises7–12 and the AnnexIV crosswalk were not executed. No legal applicability or conformity statement is made. The student's acceptance of synthetic work must be confirmed with the instructor.
+## Complete course practice and exit ticket
+
+[Complete executed notebook, Exercises1–12](../notebooks/session_07_complete_english.ipynb) · [Extension results](course_complete/extension_results.json) · [Course bundle](course_complete/session7_course_complete.zip) · [Exit ticket](exit_ticket.md).
+
+Extensions7–12 are now executed, in addition to the core exercise already recorded. Baseline tuning is repeated inside each training partition; the budget comparison uses matched seed subsets; ablation bars use paired differences and report sample SD, not a falsely independent confidence interval. Naive paired/adjusted p-values remain teaching illustrations because repeated splits overlap. The educational crosswalk records documentation gaps and makes no legal-applicability/conformity claim.
+
+The cards at this folder root describe the actual executed synthetic project; the public Wisconsin exercise remains separate. Company data and field validation are future thesis conditions, not simulated observations in these cards.

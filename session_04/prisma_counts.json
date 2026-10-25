@@ -1,15 +1,17 @@
 {
   "crossref_exported": 50,
+  "semantic_scholar_exported": 17,
   "other_methods": 9,
-  "duplicates_removed": 1,
-  "screened": 58,
-  "excluded_title": 39,
-  "reports_sought": 19,
+  "identified_records": 76,
+  "duplicates_removed": 15,
+  "screened": 61,
+  "excluded_title": 41,
+  "reports_sought": 20,
   "reports_not_retrieved": 7,
-  "full_text_assessed": 12,
+  "full_text_assessed": 13,
   "full_text_excluded": 0,
-  "included_reports": 12,
+  "included_reports": 13,
   "priority_reports": 10,
-  "supporting_reports": 2,
-  "independent_study_count": "unresolved because report datasets may overlap"
+  "supporting_reports": 3,
+  "independent_study_count": "unresolved; related reports and source-data reuse"
 }

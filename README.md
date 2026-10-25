@@ -1,57 +1,55 @@
-# Split Optimization — Research Methods Portfolio
+# Split Optimization
 
-**Project:** A fragmentation-prediction prototype to support the economic assessment of blast-design decisions in sublevel stoping at one underground mine in southern Peru.
+Research Methods portfolio · Dr. Loveleen Gaur · Sessions 1–7
 
-**Course:** Research Methods, Dr. Loveleen Gaur. All repository material is in English.
+The proposed research concerns fragmentation prediction and economic assessment in sublevel stoping at one underground mine in southern Peru. The implemented course prototype uses **synthetic data**; public Wisconsin data are used only in the supplied teaching exercises. No company records or field results are published.
 
-## Evidence boundaries
+## Submission
 
-- The mining dataset is **SYNTHETIC**. No company records have been accessed or published.
-- The student reports 120 historical blasts and expects about 30 new blasts/month for at least six months. These are reported/projected quantities, not an audited dataset or completed prospective study.
-- Sessions 6 and 7 use the supplied course notebooks: public Wisconsin teaching data and synthetic statistical experiments. They are NOT mining results.
-- Real-data publication and field trials remain subject to authorization. Acceptance of synthetic work for assessment is not assumed.
+[Complete portfolio](submission/PORTFOLIO_SESSIONS_01_07.pdf) · [Readable portfolio](submission/PORTFOLIO_SESSIONS_01_07.md) · [Requirement checklist](control/requirements.md)
 
-## Seven-session index
+| Session | Deliverable |
+|---|---|
+|1| [Paradigm justification](session_01/paradigm.md) |
+|2| [Method-fit matrix](session_02/method_fit_matrix.md) |
+|3| [Complete research protocol](session_03/protocol_extended.md) |
+|4| [Mini-review](session_04/mini_review.md), [PRISMA](session_04/prisma_status.md), [gap table](session_04/candidate_gaps.md), [reference library](session_04/review_library.ris) |
+|5| [Reproducible experiments and verification](session_05/README.md) |
+|6| [Audit and labs](session_06/README.md), [reflection/exit ticket](session_06/reflection_and_exit_ticket.md) |
+|7| [Model Card, Datasheet and complete practice](session_07/README.md) |
 
-| Session | Main document | Evidence and status |
-|---|---|---|
-| 1 | [Paradigm justification](session_01/paradigm.md) | Draft for student review and defense |
-| 2 | [Method-fit matrix](session_02/method_fit_matrix.md) | Proposed scores and weights; not empirical measurements |
-| 3 | [Protocol v0.1](session_03/protocol.md) | One-page oral version plus complete ten-section PPT supplement; real dates/quotations/permissions pending |
-| 4 | [Literature review](session_04/review_protocol.md) | Executed bounded mini-review: 10 priority + 2 supporting reports, screening and reconciled flow; database/tool deviations documented |
-| 5 | [Reproducible synthetic pipeline](session_05/README.md) | Executed synthetic pipeline, NB1/NB3/NB4, MLflow and verified local DVC restoration |
-| 6 | [Reproducibility audit and labs](session_06/README.md) | Course checklist, real paper/code audit and Your turn exercises |
-| 7 | [Benchmarking and documentation](session_07/README.md) | Course core exercises and own synthetic-project cards |
-
-## Run
+## Run the synthetic project
 
 ```bash
 python -m venv .venv
-# Activate the virtual environment using the command appropriate for your OS.
+# Activate the environment for your operating system.
 python -m pip install -r requirements-lock.txt
 python src/generate_synthetic.py
 python src/run_experiment.py
 python src/build_project_cards.py
-python src/execute_notebook.py notebooks/session_06_english.ipynb session_06/lab_results
-python src/execute_notebook.py notebooks/session_07_english.ipynb session_07/course_demo
+python src/verify_portfolio.py
 ```
 
-The standard-library notebook runner executes trusted local course adaptations without requiring Jupyter. Jupyter can also open the notebooks. Do not use the runner with unreviewed notebooks. Full Session 6 simulations can take several minutes.
+The generator creates120 fictional events. Evaluation uses a90/30 disjoint-group holdout, training-only tuning, seven seeds, simple baselines and paired ablations. Ridge has lower holdout error than random forest in this demonstration; model complexity is not treated as evidence of superiority.
 
-Read [requirements and remaining work](control/requirements.md), [evaluation plan](session_03/evaluation_plan.md), and [provenance and AI assistance](control/provenance.md). No operational explosive-charge recommendations or proven cost savings are provided.
+## Retrieve versioned teaching data
 
-## One-page documents
+```bash
+python -m pip install -r requirements-dvc.txt
+python -m dvc pull
+```
 
-- [Session 1 PDF](session_01/paradigm.pdf)
-- [Session 2 PDF](session_02/method_fit_matrix.pdf)
-- [Session 3 PDF](session_03/protocol.pdf)
+DVC restores `data/versioned/blasts_SYNTHETIC.csv` from the public read-only teaching cache. SHA256: `7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332`. The pipeline uses the identical tracked copy in `data/synthetic/`. [Fresh public clone/pull evidence](session_05/dvc_results/public_stranger_test.json) and [successful container execution](control/container_ci_evidence.json) are included.
 
-Local verification: `python src/verify_portfolio.py`. The Session7 [own-project bundle](session_07/session7_deliverable.zip) contains the synthetic cards, code and portable result evidence.
+## Execute course notebooks
 
-## Completion audit — 25 October 2026
+```bash
+python src/execute_notebook.py notebooks/session_06_english.ipynb session_06/lab_results
+python src/execute_notebook.py notebooks/session_07_complete_english.ipynb session_07/course_complete
+```
 
-Read the [updated requirement checklist](control/requirements.md), [ten-section protocol supplement](session_03/protocol_extended.md), [completed bounded mini-review](session_04/mini_review.md), and [genuine student/external actions](control/student_actions.md). The repository does not claim full assessment compliance while required source/tool, personal and authorization items remain open.
+The runner executes trusted local notebook code without Jupyter; do not run unreviewed notebooks. Earlier NB1/NB3/NB4 evidence is indexed in Session 5. Statistical examples describe teaching data and overlapping resamples, not mine effects.
 
-## Public DVC stranger test
+[Provenance and assistance](control/provenance.md) · [Final handoff](control/student_actions.md)
 
-With Git, Python3.12.14 and the optional DVC dependencies installed: clone this repository, run `python -m pip install -r requirements-dvc.txt`, then `python -m dvc pull`. This restores `data/versioned/blasts_SYNTHETIC.csv` from the public HTTP DVC cache configured in `.dvc/config`. Its SHA256 must be `7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332`. The ordinary synthetic pipeline uses the identical tracked teaching copy at `data/synthetic/blasts_SYNTHETIC.csv`. See Session5 for the recorded fresh-clone test.
+The reflection was confirmed by the student. The individual-paper coordination rule and actual course-platform upload remain handoff actions. General Management permissions and real-data validation belong to the future mining study. The proposed calendar/budget are transparent assumptions, and no grade or operational saving is guaranteed.

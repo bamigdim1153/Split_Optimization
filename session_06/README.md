@@ -22,4 +22,8 @@ These are public teaching/simulation results, not mining findings. They are envi
 
 [Audit report](audit_report.md) · [Course-aligned nine-item scorecard](audit_scorecard.csv). A real repository was inspected and an actual startup attempted. Metric reproduction remains incomplete because TensorFlow was absent in the audit environment; an unmatched image/mask was also found. Neither finding by itself proves the paper invalid.
 
-The student must confirm that the paper differs from classmates' choices, write a genuine personal reflection and exit-ticket example, and capture their own executed notebook screen. The supplied figure is plot evidence, not a fabricated screenshot or personal reflection.
+## Reflection, exit ticket and capture
+
+[Student-approved reflection and field-specific exit ticket](reflection_and_exit_ticket.md) · [Actual executed-output capture](evidence/executed_notebook_capture.png) · [Reading notes](reading_notes.md).
+
+The reflection was confirmed by the student. The capture is an automated browser view of genuine saved notebook outputs, clearly labeled; no manual student execution is claimed. The paper/code audit is complete as an assessment with documented reproduction limitations. Its unsuccessful metric reproduction is a finding, not a manufactured success. The student's classmates' article choices are unknown, so the distinct-paper instruction remains a coordination check before submission.

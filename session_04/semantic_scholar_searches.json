@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-25",
+  "broad_query": "underground rock fragmentation",
+  "broad_query_url": "https://www.semanticscholar.org/search?q=underground%20rock%20fragmentation&sort=relevance",
+  "broad_displayed_total": "about 35500; not exported or screened as a whole",
+  "broad_export_limit": "first page, 10 actual displayed records",
+  "broad_records": [
+    {
+      "title": "Effect of the Inter-Ring Delay Time on Rock Fragmentation: Field Tests at the Underground Mine",
+      "url": "https://www.semanticscholar.org/paper/Effect-of-the-Inter-Ring-Delay-Time-on-Rock-Field-Chen-Liu/1b4621b422a62ca4ba34fceaa6f09544785f4aff"
+    },
+    {
+      "title": "TBM rock fragmentation classification using an adaptive spot denoising and contour-texture decomposition attention-based method",
+      "url": "https://www.semanticscholar.org/paper/TBM-rock-fragmentation-classification-using-an-spot-Huang-Qin/d180e0f116d024b4aed422615b9da2a1a9b62071"
+    },
+    {
+      "title": "Characterization of underground rock fragmentation",
+      "url": "https://www.semanticscholar.org/paper/Characterization-of-underground-rock-fragmentation-Singh-Scoble/cde6cc45605f61c83c69add28562e49d9c69300c"
+    },
+    {
+      "title": "Feasibility study of an adjustable-power laser cutting head for TBM applications: Focus on rock fragmentation efficiency and energy consumption",
+      "url": "https://www.semanticscholar.org/paper/Feasibility-study-of-an-adjustable-power-laser-head-Zhang-Xiao/94d8ff940bb107606988d638c333a7943b68a1b0"
+    },
+    {
+      "title": "A novel multi-scale hybrid connected neural network for anti-noise rock fragmentation classification of tunnel boring machine",
+      "url": "https://www.semanticscholar.org/paper/A-novel-multi-scale-hybrid-connected-neural-network-Huang-Qin/7b22861974f207e6c8d1fbdb9ee142d88cc52e36"
+    },
+    {
+      "title": "Detection of rock fragmentation from borehole imaging logs using a deep learning method",
+      "url": "https://www.semanticscholar.org/paper/Detection-of-rock-fragmentation-from-borehole-logs-Ge-Zhang/608862b71d8f7e91293f2b4a0b746376750621fd"
+    },
+    {
+      "title": "Performance evaluation of rock fragmentation prediction based on RF\u2010BOA, AdaBoost\u2010BOA, GBoost\u2010BOA, and ERT\u2010BOA hybrid models",
+      "url": "https://www.semanticscholar.org/paper/Performance-evaluation-of-rock-fragmentation-based-Zhao-Li/c53990ea711b8a568f19da809a2946325cb1aa32"
+    },
+    {
+      "title": "Integrating Underground Blast Fragmentation Modeling for Sustainable Mine-to-Mill Optimization: A Focus on Blast Fragmentation and Energy Efficiency in Comminution Circuits",
+      "url": "https://www.semanticscholar.org/paper/Integrating-Underground-Blast-Fragmentation-for-A-Shields-Silva/454f4db418b6632c98d80e2e59c02ecf71baf6e4"
+    },
+    {
+      "title": "Preliminary Blast Fragmentation Modeling in an Underground Aggregate Operation",
+      "url": "https://www.semanticscholar.org/paper/Preliminary-Blast-Fragmentation-Modeling-in-an-Shields-Calnan/efdb8df2f1376f2a7b86c706d3903d1d321e73aa"
+    },
+    {
+      "title": "The rock fragmentation control in long hole blasting \u2013 case study Antam Pongkor underground gold mine",
+      "url": "https://www.semanticscholar.org/paper/The-rock-fragmentation-control-in-long-hole-%E2%80%93-case-Fadillah/d9ee7fa60de0d639a2d3af177f61e59711eaa796"
+    }
+  ],
+  "targeted_searches": [
+    {
+      "report_id": "R01",
+      "query": "Underground bench blast fragmentation: Comparison of a multivariate regression model to established predictive models",
+      "query_url": "https://www.semanticscholar.org/search?q=Underground%20bench%20blast%20fragmentation%3A%20Comparison%20of%20a%20multivariate%20regression%20model%20to%20established%20predictive%20models&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": {
+        "title": "Underground bench blast fragmentation: Comparison of a multivariate regression model to established predictive models",
+        "url": "https://www.semanticscholar.org/paper/Underground-bench-blast-fragmentation%3A-Comparison-a-Shields-Calnan/b3b172937253f5aa72db9dfe97e00dcb805c5631"
+      }
+    },
+    {
+      "report_id": "R03",
+      "query": "Rock Fragmentation Prediction Using an Artificial Neural Network and Support Vector Regression Hybrid Approach",
+      "query_url": "https://www.semanticscholar.org/search?q=Rock%20Fragmentation%20Prediction%20Using%20an%20Artificial%20Neural%20Network%20and%20Support%20Vector%20Regression%20Hybrid%20Approach&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": {
+        "title": "Rock Fragmentation Prediction Using an Artificial Neural Network and Support Vector Regression Hybrid Approach",
+        "url": "https://www.semanticscholar.org/paper/Rock-Fragmentation-Prediction-Using-an-Artificial-Amoako-Jha/6fd61be9f295d991aeed2e5bb6f7eaf159adc9f8"
+      }
+    },
+    {
+      "report_id": "R05",
+      "query": "Modelling the relationship between oversize fragments and nature of rock mass for a sublevel caving operation",
+      "query_url": "https://www.semanticscholar.org/search?q=Modelling%20the%20relationship%20between%20oversize%20fragments%20and%20nature%20of%20rock%20mass%20for%20a%20sublevel%20caving%20operation&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": {
+        "title": "Modelling the relationship between oversize fragments and nature of rock mass for a sublevel caving operation",
+        "url": "https://www.semanticscholar.org/paper/Modelling-the-relationship-between-oversize-and-of-Manzoor-Gustafson/63caec863da4e519afc846bbb818bfc65400f66a"
+      }
+    },
+    {
+      "report_id": "R06",
+      "query": "Rock fragmentation measurements in sublevel caving: field tests at LKAB Malmberget mine",
+      "query_url": "https://www.semanticscholar.org/search?q=Rock%20fragmentation%20measurements%20in%20sublevel%20caving%3A%20field%20tests%20at%20LKAB%20Malmberget%20mine&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": {
+        "title": "Rock fragmentation measurements in sublevel caving: field tests at LKAB\u2019s Malmberget mine",
+        "url": "https://www.semanticscholar.org/paper/Rock-fragmentation-measurements-in-sublevel-caving%3A-Manzoor-Gustafson/20165dc8eede830a07a08a21f6778f4e42f3469c"
+      }
+    },
+    {
+      "report_id": "R09",
+      "query": "Rock Fragmentation by Blasting in Open-Pit Mining: an AI Predictive Model",
+      "query_url": "https://www.semanticscholar.org/search?q=Rock%20Fragmentation%20by%20Blasting%20in%20Open-Pit%20Mining%3A%20an%20AI%20Predictive%20Model&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": null
+    },
+    {
+      "report_id": "R10",
+      "query": "Comparative Analysis of Fragmentation Models for Underground Blasting",
+      "query_url": "https://www.semanticscholar.org/search?q=Comparative%20Analysis%20of%20Fragmentation%20Models%20for%20Underground%20Blasting&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": null
+    },
+    {
+      "report_id": "R11",
+      "query": "Prediction of Rock Fragmentation by Blasting Using Symbolic Regression and Explainable Artificial Intelligence",
+      "query_url": "https://www.semanticscholar.org/search?q=Prediction%20of%20Rock%20Fragmentation%20by%20Blasting%20Using%20Symbolic%20Regression%20and%20Explainable%20Artificial%20Intelligence&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": {
+        "title": "Prediction of Rock Fragmentation by Blasting Using Symbolic Regression and Explainable Artificial Intelligence",
+        "url": "https://www.semanticscholar.org/paper/Prediction-of-Rock-Fragmentation-by-Blasting-Using-Ozyurt/4c1062afec7631a0432bd539a9020f5acd55934d"
+      }
+    },
+    {
+      "report_id": "R12",
+      "query": "Impact of blast design parameters on rock fragmentation in sub-level caving: A multivariate regression approach",
+      "query_url": "https://www.semanticscholar.org/search?q=Impact%20of%20blast%20design%20parameters%20on%20rock%20fragmentation%20in%20sub-level%20caving%3A%20A%20multivariate%20regression%20approach&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": {
+        "title": "Impact of blast design parameters on rock fragmentation in sub-level caving: A multivariate regression approach",
+        "url": "https://www.semanticscholar.org/paper/Impact-of-blast-design-parameters-on-rock-in-A-Khodayari-Xu/c1f61e0fb5cf0aa9bce4bc4231b0d35fbcca0067"
+      }
+    },
+    {
+      "report_id": "C27",
+      "query": "Percentile Fragment Size Predictions for Blasted Rock and the Fragmentation\u2013Energy Fan",
+      "query_url": "https://www.semanticscholar.org/search?q=Percentile%20Fragment%20Size%20Predictions%20for%20Blasted%20Rock%20and%20the%20Fragmentation%E2%80%93Energy%20Fan&sort=relevance",
+      "method": "known-item exact-title verification; only the exact matched item exported",
+      "matched": {
+        "title": "Percentile Fragment Size Predictions for Blasted Rock and the Fragmentation\u2013Energy Fan",
+        "url": "https://www.semanticscholar.org/paper/Percentile-Fragment-Size-Predictions-for-Blasted-Ouchterlony-Sanchidri%C3%A1n/45ee380a194400d349b215fb5c737f4f239bb2f0"
+      }
+    }
+  ],
+  "limitation": "Post-hoc known-item verification is not an unbiased discovery search. Incidental suggested results from targeted queries were not exported or screened; only exact matched known items were exported."
+}
