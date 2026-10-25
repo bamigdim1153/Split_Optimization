@@ -39,7 +39,11 @@ def main():
     assert counts['full_text_assessed']-counts['full_text_excluded']==counts['included_reports']
     nb4=json.loads((ROOT/'session_05/nb4_results/execution.json').read_text())
     assert nb4['actual_content_commits']==6 and nb4['same_seed_repeat_identical']
-    report={'local_links' :'PASS','python_and_notebook_syntax':'PASS','executed_course_notebooks':'PASS','synthetic_origin_hash_and_ids':'PASS','group_disjoint_holdout':'PASS','seven_seeds_42_runs':'PASS','repeatability':'PASS','documentation_check':'8/8; completeness only','private_company_records_included':False,'docker_run':'NOT PERFORMED','dvc_remote_test':'PASS: actual local push, fresh Git clone via Dulwich, DVC pull and identical SHA256','mini_review':'PASS: reconciled register and bounded full-text review; required database/tool deviations remain','nb4_workshop':'PASS: five seeds, MLflow, six actual automation commits and repeatability'}
+    public=json.loads((ROOT/'session_05/dvc_results/public_stranger_test.json').read_text())
+    assert public['dvc_pull_exit_code']==0 and public['restored_sha256']==data_hash
+    ci=json.loads((ROOT/'control/container_ci_evidence.json').read_text())
+    assert ci['conclusion']=='success' and all(j['conclusion']=='success' for j in ci['jobs'])
+    report={'local_links'  :'PASS','python_and_notebook_syntax':'PASS','executed_course_notebooks':'PASS','synthetic_origin_hash_and_ids':'PASS','group_disjoint_holdout':'PASS','seven_seeds_42_runs':'PASS','repeatability':'PASS','documentation_check':'8/8; completeness only','private_company_records_included':False,'docker_run':'PASS: actual GitHub-hosted Docker build/run/artifact export; see container_ci_evidence.json','dvc_remote_test':'PASS: local push/clone/pull AND fresh public GitHub clone/HTTP DVC pull; identical SHA256','mini_review':'PASS: reconciled register and bounded full-text review; required database/tool deviations remain','nb4_workshop':'PASS: five seeds, MLflow, six actual automation commits and repeatability'}
     (ROOT/'control/verification.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

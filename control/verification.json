@@ -8,8 +8,8 @@
   "repeatability": "PASS",
   "documentation_check": "8/8; completeness only",
   "private_company_records_included": false,
-  "docker_run": "NOT PERFORMED",
-  "dvc_remote_test": "PASS: actual local push, fresh Git clone via Dulwich, DVC pull and identical SHA256",
+  "docker_run": "PASS: actual GitHub-hosted Docker build/run/artifact export; see container_ci_evidence.json",
+  "dvc_remote_test": "PASS: local push/clone/pull AND fresh public GitHub clone/HTTP DVC pull; identical SHA256",
   "mini_review": "PASS: reconciled register and bounded full-text review; required database/tool deviations remain",
   "nb4_workshop": "PASS: five seeds, MLflow, six actual automation commits and repeatability"
 }

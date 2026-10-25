@@ -1,6 +1,14 @@
 name: Synthetic portfolio validation
 on:
   push:
+    paths:
+      - Dockerfile
+      - requirements*.txt
+      - src/generate_synthetic.py
+      - src/run_experiment.py
+      - src/build_project_cards.py
+      - src/documentation_score.py
+      - .github/workflows/portfolio-validation.yml
   pull_request:
   workflow_dispatch:
 permissions:

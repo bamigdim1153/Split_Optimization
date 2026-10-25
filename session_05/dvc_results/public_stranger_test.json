@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-25",
+  "repository": "https://github.com/bamigdim1153/Split_Optimization",
+  "commit": "a53592cc12b793c782097e21dd654b4e8b22a56c",
+  "clone_implementation": "Dulwich pure-Python Git clone",
+  "initially_missing_versioned_data": true,
+  "dvc_pull_exit_code": 0,
+  "remote": "public HTTP GitHub raw mirror",
+  "restored_sha256": "7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332",
+  "matches_tracked_synthetic_copy": true,
+  "data_origin": "SYNTHETIC",
+  "limitation": "Fresh isolated workspace on this machine; not an independent human reproduction."
+}

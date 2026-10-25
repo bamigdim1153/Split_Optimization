@@ -1,0 +1,47 @@
+{
+  "run_url": "https://github.com/bamigdim1153/Split_Optimization/actions/runs/40166866005",
+  "commit": "b524185d6d01b52b755c015a20b97c5f6fa9490b",
+  "conclusion": "success",
+  "environment": "GitHub-hosted ubuntu-latest, Docker python:3.12.14-slim",
+  "jobs": [
+    {
+      "name": "container-check",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build Python 3.12.14 environment",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run synthetic experiment and documentation check",
+          "conclusion": "success"
+        },
+        {
+          "name": "Export generated evidence",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "scope": "Build and execute synthetic generator, experiment, Model Card/Datasheet check and upload artifacts. Not company-data validation."
+}
