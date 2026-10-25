@@ -23,7 +23,7 @@ jobs:
           path: ${{ env.R_LIBS_USER }}
           key: prisma-R-release-v1
       - name: Install renderer system dependency
-        run: sudo apt-get install -y pandoc
+        run: sudo apt-get install -y pandoc librsvg2-2
       - name: Install official diagram package
         run: Rscript -e 'if (!requireNamespace("PRISMA2020", quietly=TRUE)) install.packages("PRISMA2020", repos=Sys.getenv("RSPM"))'
       - name: Generate official-package diagrams
