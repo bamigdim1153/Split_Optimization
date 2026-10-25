@@ -1,0 +1,7 @@
+Command: python U_CARFnet_train.py
+Working directory: AUDITED_REPOSITORY/U_CARFnet
+Python: 3.12.14
+Exit code: 1
+First failing statement: from tensorflow.keras.models import *
+ModuleNotFoundError: No module named 'tensorflow'
+This is a normalized English transcription of the captured startup failure. It does not represent metric reproduction.

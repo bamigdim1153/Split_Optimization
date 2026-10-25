@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "system": "Windows",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.1",
+    "mlflow-skinny": "2.22.0"
+  },
+  "dataset_sha256": "7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332",
+  "seeds": [
+    7,
+    13,
+    21,
+    42,
+    67,
+    89,
+    101
+  ],
+  "train": 90,
+  "test": 30,
+  "training_groups": 9,
+  "test_groups": 3,
+  "data_origin": "SYNTHETIC"
+}

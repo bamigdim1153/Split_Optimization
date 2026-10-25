@@ -1,0 +1,7 @@
+numpy==2.2.6
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.1
+mlflow-skinny==2.22.0
+sqlalchemy==2.0.40
+alembic==1.15.2

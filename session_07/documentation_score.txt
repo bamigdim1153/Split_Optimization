@@ -1,0 +1,15 @@
+DOCUMENTATION SCORECARD
+====================================================
+[✓] Model Card has all 9 sections
+[✓] Datasheet has all 7 sections
+[✓] Intended MISUSE / out-of-scope stated
+[✓] Performance reported with variation (± / std / seeds)
+[✓] Metrics disaggregated (per-class / per-group)
+[✓] Dataset 'should NOT be used for' stated
+[✓] Collection process described
+[✓] Gaps flagged honestly ('unknown')
+====================================================
+Score: 8/8  (100%)
+Submission-ready. A stranger could understand and re-run this.
+
+LIMIT: This is the supplied structural/keyword completeness check. It does not validate performance, permissions, originality, safety or assessment acceptance.

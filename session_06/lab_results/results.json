@@ -1,0 +1,50 @@
+{
+  "data_origin": "PUBLIC_TEACHING_DATA_AND_SYNTHETIC_EXPERIMENTS",
+  "seed_width16_sd": 1.0146706621921602,
+  "seed_width64_sd": 0.919273810289908,
+  "leakage": [
+    {
+      "k": 5,
+      "leaky_accuracy_pct": 77.99999999999999,
+      "clean_accuracy_pct": 49.00000000000001
+    },
+    {
+      "k": 20,
+      "leaky_accuracy_pct": 90.0,
+      "clean_accuracy_pct": 45.0
+    },
+    {
+      "k": 100,
+      "leaky_accuracy_pct": 99.0,
+      "clean_accuracy_pct": 48.0
+    }
+  ],
+  "patient_strength3": [
+    99.25,
+    54.25000000000001
+  ],
+  "patient_strength0_5": [
+    56.25,
+    48.75
+  ],
+  "peek10_percent": 18.6,
+  "peek50_percent": 31.5,
+  "n20_effect": [
+    3.4309208077508373,
+    0.4109153385928523,
+    0.20162544225077228,
+    [
+      -1.9141494434154147,
+      8.77599105891709
+    ]
+  ],
+  "n70_effect": [
+    6.397802568933798,
+    0.7148614297267684,
+    4.246333000292e-05,
+    [
+      3.4065830180406813,
+      9.389022119826915
+    ]
+  ]
+}

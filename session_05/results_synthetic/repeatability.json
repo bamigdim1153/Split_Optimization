@@ -1,0 +1,8 @@
+{
+  "data_origin": "SYNTHETIC",
+  "seed": 42,
+  "predictions_identical": true,
+  "metrics_identical": true,
+  "predictions_sha256_a": "338d7aff90f9f0595b01873fee83fda8a933fe96cfdb952fb63ebebb0b1afb0b",
+  "predictions_sha256_b": "338d7aff90f9f0595b01873fee83fda8a933fe96cfdb952fb63ebebb0b1afb0b"
+}

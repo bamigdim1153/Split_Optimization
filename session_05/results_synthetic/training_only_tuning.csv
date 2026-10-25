@@ -1,0 +1,113 @@
+seed,model,variant,parameters,rmse_cv_train
+7,ridge_tuned,full,"{""model__alpha"": 0.1}",8.327495316800116
+7,ridge_tuned,full,"{""model__alpha"": 1.0}",8.32013566576902
+7,ridge_tuned,full,"{""model__alpha"": 10.0}",8.970686814572174
+7,ridge_tuned,full,"{""model__alpha"": 100.0}",18.04240701160936
+7,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.951144384000054
+7,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.953048864754146
+7,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.916643518654233
+7,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.593965052410203
+7,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",27.42673122931063
+7,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",28.047719093332372
+7,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",33.62920379492647
+7,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",29.12269535237013
+7,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.884533457847859
+7,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.951405647974381
+7,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.897217111912253
+7,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.58753315599266
+13,ridge_tuned,full,"{""model__alpha"": 0.1}",8.327495316800116
+13,ridge_tuned,full,"{""model__alpha"": 1.0}",8.32013566576902
+13,ridge_tuned,full,"{""model__alpha"": 10.0}",8.970686814572174
+13,ridge_tuned,full,"{""model__alpha"": 100.0}",18.04240701160936
+13,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",14.115472127074975
+13,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",14.052054950863173
+13,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.86395821030809
+13,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.791986346930662
+13,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",27.065674527925797
+13,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",27.632860840472414
+13,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",32.191791506568755
+13,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",28.352169392850964
+13,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",14.027978950819646
+13,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.998512468574845
+13,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.921923182245314
+13,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.75895140612874
+21,ridge_tuned,full,"{""model__alpha"": 0.1}",8.327495316800116
+21,ridge_tuned,full,"{""model__alpha"": 1.0}",8.32013566576902
+21,ridge_tuned,full,"{""model__alpha"": 10.0}",8.970686814572174
+21,ridge_tuned,full,"{""model__alpha"": 100.0}",18.04240701160936
+21,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",14.060734171097687
+21,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.955649299893016
+21,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",13.00046216748437
+21,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.689858835676722
+21,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",27.45563618625002
+21,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",28.02045575225594
+21,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",33.411320722618974
+21,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",29.02659661390651
+21,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.897474445666532
+21,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.928995945687833
+21,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",13.083831980640818
+21,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.637768001723943
+42,ridge_tuned,full,"{""model__alpha"": 0.1}",8.327495316800116
+42,ridge_tuned,full,"{""model__alpha"": 1.0}",8.32013566576902
+42,ridge_tuned,full,"{""model__alpha"": 10.0}",8.970686814572174
+42,ridge_tuned,full,"{""model__alpha"": 100.0}",18.04240701160936
+42,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",14.047635269512492
+42,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",14.201673309456176
+42,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.677505920847736
+42,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.811406053515716
+42,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",27.199642265643067
+42,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",27.63495662512017
+42,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",32.62216571649726
+42,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",28.71529953869327
+42,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.93832569776089
+42,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",14.080566118956673
+42,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.715027950790292
+42,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.703102432718914
+67,ridge_tuned,full,"{""model__alpha"": 0.1}",8.327495316800116
+67,ridge_tuned,full,"{""model__alpha"": 1.0}",8.32013566576902
+67,ridge_tuned,full,"{""model__alpha"": 10.0}",8.970686814572174
+67,ridge_tuned,full,"{""model__alpha"": 100.0}",18.04240701160936
+67,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.89186047166295
+67,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.988570307729782
+67,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.89356474056214
+67,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.637602615295533
+67,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",27.087603340833994
+67,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",27.602526911230427
+67,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",32.70887683671237
+67,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",28.479649764289935
+67,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.9208516360624
+67,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.99730171136332
+67,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.66632612740306
+67,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.574695586571323
+89,ridge_tuned,full,"{""model__alpha"": 0.1}",8.327495316800116
+89,ridge_tuned,full,"{""model__alpha"": 1.0}",8.32013566576902
+89,ridge_tuned,full,"{""model__alpha"": 10.0}",8.970686814572174
+89,ridge_tuned,full,"{""model__alpha"": 100.0}",18.04240701160936
+89,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",14.355409145907236
+89,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",14.41393617538222
+89,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",13.016645895612461
+89,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",14.02684027085545
+89,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",27.11170564558824
+89,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",27.58823806289271
+89,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",32.67484991146874
+89,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",28.38353835719828
+89,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",14.09057111709445
+89,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",14.365930712030215
+89,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.718855547558983
+89,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.97349240236469
+101,ridge_tuned,full,"{""model__alpha"": 0.1}",8.327495316800116
+101,ridge_tuned,full,"{""model__alpha"": 1.0}",8.32013566576902
+101,ridge_tuned,full,"{""model__alpha"": 10.0}",8.970686814572174
+101,ridge_tuned,full,"{""model__alpha"": 100.0}",18.04240701160936
+101,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.709057930455794
+101,rf_tuned,full,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.745908753553678
+101,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.583157856289676
+101,rf_tuned,full,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.506714560962157
+101,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",27.385900137957606
+101,rf_tuned,without_geology,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",27.90738718977492
+101,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",32.60332654811193
+101,rf_tuned,without_geology,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",28.921661977911658
+101,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 1}",13.573383974164912
+101,rf_tuned,without_design,"{""model__max_depth"": 3, ""model__min_samples_leaf"": 4}",13.705907806065326
+101,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}",12.49027621019294
+101,rf_tuned,without_design,"{""model__max_depth"": null, ""model__min_samples_leaf"": 4}",13.479612571946022

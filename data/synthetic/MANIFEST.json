@@ -1,0 +1,8 @@
+{
+  "data_origin": "SYNTHETIC",
+  "n": 120,
+  "generator_seed": 20261024,
+  "sha256": "7ebd3c2edcefc67024d9ab4ca9f09332615573930c6e93e3c70043f43dc97332",
+  "formula": "150+70g+45s+60(d-0.5)^2+30h+20gs+N(0,6)",
+  "warning": "Invented, uncalibrated values. The abstract design index cannot be converted to operational parameters. No mine P80 or costs are inferred."
+}

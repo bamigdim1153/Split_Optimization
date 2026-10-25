@@ -1,0 +1,14 @@
+{
+  "local_links": "PASS",
+  "python_and_notebook_syntax": "PASS",
+  "executed_course_notebooks": "PASS",
+  "synthetic_origin_hash_and_ids": "PASS",
+  "group_disjoint_holdout": "PASS",
+  "seven_seeds_42_runs": "PASS",
+  "repeatability": "PASS",
+  "documentation_check": "8/8; completeness only",
+  "private_company_records_included": false,
+  "docker_run": "NOT PERFORMED",
+  "dvc_remote_test": "NOT PERFORMED",
+  "systematic_prisma": "PENDING"
+}

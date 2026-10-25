@@ -1,0 +1,33 @@
+{
+  "Motivation": {
+    "Purpose": "Demonstrate research methods without reading or publishing company records",
+    "Created by / funded by": "Mathematical generator prepared with AI assistance; no company funding claim"
+  },
+  "Composition": {
+    "What instances represent": "120 fictional event records, twelve abstract groups, four indices and one invented target",
+    "Labels": "Every row data_origin=SYNTHETIC",
+    "Sample vs population": "Not a sample from the mine and not a population estimate",
+    "Missing data": "None intentionally generated; this does not describe the company dataset"
+  },
+  "Collection process": {
+    "How collected": "No field collection: deterministic pseudorandom generation with seed20261024; formula and hash in data/synthetic/MANIFEST.json",
+    "Timeframe": "Simulation generated for this course portfolio; not a six-month field study",
+    "Consent / ethics": "No people or company records; permission for any future real-data use remains UNKNOWN"
+  },
+  "Preprocessing / cleaning / labeling": {
+    "Steps": "Generator rounds values; fixed90/30 group-disjoint split; learning transformations inside training",
+    "Raw data available": "The generated CSV, code and hash are included; no raw mine images exist in this dataset"
+  },
+  "Uses": {
+    "Appropriate uses": "Teaching, code verification and labelled methodological demonstrations",
+    "Should NOT be used for": "Operational blast decisions, real-mine P80/cost predictions, thesis savings claims or causal physical conclusions"
+  },
+  "Distribution": {
+    "How distributed": "This repository contains only synthetic records and public-course result artifacts",
+    "License / restrictions": "Repository-owner license decision UNKNOWN; public availability alone is not a company-data license"
+  },
+  "Maintenance": {
+    "Maintainer": "Repository owner; institutional endorsement UNKNOWN",
+    "Update plan": "Regenerate from code; any generator change requires a new hash/version and evaluation"
+  }
+}

@@ -1,0 +1,10 @@
+course_item,status,analyst_points,evidence
+"Seeds reported, multiple runs",No,0,No seed-setting occurrence found in inspected scripts; repeated-seed reproduction not established
+Splits described,Partial,0.5,Paper section5.1 reports80/20; event/augmentation lineage not verified
+Leakage checked,Partial,0.5,No exact image hash overlap; transformed/source-event overlap unresolved
+Tuning separated,Partial,0.5,Configurations/ablations described; full tuning/selection separation not established
+Statistical test named and appropriate,No,0,Appropriate paired test evidence not established in this audit
+Effect size and confidence interval,No,0,Not reproduced or sufficiently established by inspected evidence
+External validation,No,0,Independent site/period test not established
+Compute documented,Partial,0.5,Hardware/framework described; complete reproducible lock/runtime record missing
+Code and data available for rerun,Partial,0.5,"Public code/examples; missing mask, absent dependency and coverage restrictions"
