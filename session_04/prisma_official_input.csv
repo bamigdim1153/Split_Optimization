@@ -8,7 +8,8 @@ database_specific_results,NA,box2,Records identified from: specific databases,Sp
 register_results,NA,box2,Records identified from: Registers,Registers,Registers,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,0
 register_specific_results,NA,box2,Records identified from: specific registers,Specific Registers,Specific Registers,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,"None, 0"
 NA,node16,othstud,Grey title box; Identification of new studies via other methods,Identification of new studies via other methods,Identification of new studies via other methods,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,0
-website_results,node17,box11,Records identified from: Websites,Prior candidate records: 9; duplicate DOI removed: 7; unique reports: 2,Prior candidate records: 9; duplicate DOI removed: 1; unique reports: 8,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,9
+website_results,node17,box11,Records identified from: Websites,"Prior candidates
+(7 duplicate DOIs removed)",9 prior candidates minus7 duplicate DOIs leaves2 unique reports,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,9
 organisation_results,,box11,Records identified from: Organisations,Organisations,Organisations,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,0
 citations_results,NA,box11,Records identified from: Citation searching,Citation searching,Citation searching,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,0
 duplicates,node8,box3,Duplicate records,Duplicate records,Duplicate records,https://github.com/bamigdim1153/Split_Optimization/blob/main/session_04/screening_register.csv,8
