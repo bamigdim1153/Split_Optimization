@@ -51,7 +51,7 @@ python src/execute_notebook.py notebooks/session_07_complete_english.ipynb sessi
 
 The runner executes trusted local notebook code without Jupyter; do not run unreviewed notebooks. Earlier NB1/NB3/NB4 evidence is indexed in Session 5. Statistical examples describe teaching data and overlapping resamples, not mine effects.
 
-[Provenance and assistance](control/provenance.md) · [Final handoff](control/student_actions.md)
+[Provenance and assistance](control/provenance.md) 
 
 Company data are not included; the mining prototype uses synthetic data until General Management approves academic use. AI assistance is declared in provenance. 
 
