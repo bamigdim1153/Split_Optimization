@@ -1,6 +1,6 @@
 # AI use declaration
 
-I used AI tools as ChatGPT and Claude throughout this portfolio.
+I used AI tools (ChatGPT and Claude) throughout this portfolio.
 The AI helped me to:
 
 - draft and organize the session documents in English;
@@ -11,8 +11,7 @@ The AI helped me to:
   (run through GitHub Actions) and import the included reports into Zotero
   for Session 4.
 
-My part: I chose the research topic, provided the mine context, wrote the Session 6
-reflection, and reviewed the documents. I am responsible for the content and can
+My part: I chose the research topic, provided the mine context, approved the Session 6 reflection (I confirmed it in Spanish; it was translated into English with AI), and reviewed the documents. I am responsible for the content and can
 explain the methods and results.
 
 ## Mine context (my own report, not yet verified against company records)
