@@ -1,21 +1,37 @@
-# Reflection and exit ticket
+# Session 6 — Reflection and exit ticket
 
-## Reflection confirmed by the student
+## Reflection
 
-> I used to think that very high accuracy was enough to demonstrate a good model; now I consider it necessary to check data separation, compare against simple models, and evaluate variation across runs.
+> I used to think that very high accuracy was enough to demonstrate a good model;
+> now I think it is necessary to check how the data are split, compare against
+> simple models, and look at the variation across runs.
 
-The student explicitly confirmed this statement in Spanish on25 October 2026 and authorized its inclusion in English. The translation was prepared with AI assistance.
+## What the five "Your turn" changes showed me
 
-## Evidence from the five requested changes
+| Change | Result in my run |
+|---|---|
+| MLP hidden layer 16 → 64 | Standard deviation across seeds went from 1.01 to 0.92 percentage points |
+| Feature selection on pure noise, k = 5 / 20 / 100 | With leakage: 78% / 90% / 99% accuracy. Clean pipeline: 49% / 45% / 48% |
+| Patient fingerprint 3.0 → 0.5 | Gap between scan split and patient split went from 45.0 to 7.5 points |
+| Peeking 10 → 50 times | False positives went from 18.6% to 31.5% |
+| Group size 20 → 70 | p-value went from 0.20 to about 0.00004; the true effect stayed at 6 points |
 
-The larger MLP reduced sample SD in this run from1.0147 to0.9193 percentage points; this is an observation, not a rule that larger networks are always more stable. Feature selection on all rows produced78%,90% and99% accuracy on pure noise as k increased; clean selection inside folds gave49%,45% and48%. Reducing the artificial patient fingerprint reduced the scan/patient gap from45.0 to7.5 points. Peeking50 times increased false alarms from18.6% to31.5% relative to10 checks. Increasing the group sample from20 to70 changed the p-value while the data-generating mean difference remained six points; the observed estimate also changed.
+The one that surprised me most was feature selection: with leakage, a model reached
+99% accuracy on pure noise. The larger network was a bit more stable in this run,
+but I would not generalize that from one experiment.
 
-## One number from the field to question
+## One number from my field that I would question
 
-Toapanta-Delgado et al.(2025), DOI10.37815/rte.v37nE1.1356, report RF R2=0.9538 for fragmentation prediction. This number deserves a validation question: does it describe an untouched, event-independent future test, or a more optimistic evaluation of compiled data? The inspected report does not establish prospective/grouped validation. This is a reason to request the exact split/tuning protocol, not evidence that the authors fabricated data or that leakage has been proved. It predicts an average-size/P50-related target, not the proposed mine's P80. A high R2 alone cannot demonstrate local transport savings.
+Toapanta-Delgado et al. (2025), DOI 10.37815/rte.v37nE1.1356, report R² = 0.9538 for
+fragmentation prediction with random forest. Before trusting this number I would ask:
+was it tested on new, independent blasts, or on a random split of compiled data? The
+paper does not make this clear. Also, it predicts an average size (P50-type), not P80,
+and a high R² alone does not show transport-cost savings.
 
-## Application to the proposed project
+## What I will apply in my project
 
-Split by event/stope/time before learning transformations; keep related images together; record the baseline and metric before evaluating future events; freeze each prediction before observing its outcome; compare against simple and applicable empirical predictors. Report negative findings. The mine dataset and permissions remain future research conditions, distinct from the completed synthetic course exercise.
-
-Paper-choice uniqueness remains unconfirmed: the student answered that they do not know classmates' selections. No claim of uniqueness has been made. The audit itself is complete as a documented assessment; failure to reproduce the paper's metrics is an audit finding, not a reason to manufacture a successful reproduction.
+- Split the data by blast, stope or time **before** any scaling or feature selection.
+- Keep images from the same blast together, on the same side of the split.
+- Fix the baseline and the metric before evaluating on new blasts.
+- Record each prediction before observing the real result.
+- Always compare against simple models, and report negative results too.
