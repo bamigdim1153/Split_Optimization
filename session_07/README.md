@@ -21,3 +21,5 @@ These cards describe only the synthetic regression exercise, and contain actual 
 Extensions7–12 are now executed, in addition to the core exercise already recorded. Baseline tuning is repeated inside each training partition; the budget comparison uses matched seed subsets; ablation bars use paired differences and report sample SD, not a falsely independent confidence interval. Naive paired/adjusted p-values remain teaching illustrations because repeated splits overlap. The educational crosswalk records documentation gaps and makes no legal-applicability/conformity claim.
 
 The cards at this folder root describe the actual executed synthetic project; the public Wisconsin exercise remains separate. Company data and field validation are future thesis conditions, not simulated observations in these cards.
+
+Additional Exercise7/9 Your turn modifications are executed in [the addendum](your_turn_addendum/README.md).

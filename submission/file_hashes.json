@@ -1,6 +1,6 @@
 {
-  "submission/PORTFOLIO_SESSIONS_01_07.pdf": "3cc3fe04c03e291007e7c0a822d887a4609553fefd763e1c8efbd487d3db25d6",
-  "submission/PORTFOLIO_SESSIONS_01_07.md": "ec90e4b52908116c34ecc5c7543a45d9076ea93a544c6e0f34e1cc0efb879383",
+  "submission/PORTFOLIO_SESSIONS_01_07.pdf": "347627715e17e1e3dc995199eb028e41afb24287376ff4752ac8a103e9666353",
+  "submission/PORTFOLIO_SESSIONS_01_07.md": "45ba2ca41f6258be6031bb02c951e72ef84108b6e00e1d08d27e9fce400be286",
   "submission/README.md": "213d7df439bd5d148aa391f550a52a8f694a55af2aad919d8c13272818f4fb5a",
   "session_01/paradigm.pdf": "0c0429aebb702c3ed04ef40c84eac2e40381718d4cc3ede4acb4a6bb23510ba2",
   "session_02/method_fit_matrix.pdf": "cb88807857d693c895a5a6aaa44f0697361b741e52b71de3fa3d11627f464160",
@@ -28,8 +28,11 @@
   "session_07/documentation_score.txt": "6d9b96826f176e268de6c58f4af02d65ddfd32d7981555b1cf6a428613ded013",
   "session_07/exit_ticket.md": "50535111fb8ca47f70fa4c43bdf1b19eb84c097936a2b6d7e1a62440abe9cb8c",
   "session_07/course_complete/extension_results.json": "f35aaaff7fe7c3963d18855c1795231e2ce754d1b96c88f87db0452402fa0d91",
-  "session_07/session7_deliverable.zip": "04198230b136e2f704a2ff9896ccc2565863e944e2e11b4f9a415e17bd9ac338",
+  "session_07/session7_deliverable.zip": "9b240f545913cc7235cabdc8f49619847b6d2564ae2d431fec74ec6a26c87209",
   "control/provenance.md": "33eccb941c653429e4bcf7bf8d0f65d6eeea484c208e2ff4cd69ddec7888c781",
   "control/requirements.md": "b23bee637581c56401d7b728e870239d5a7c55ae3016ed7c70b51d54ce552014",
-  "control/student_actions.md": "eaa9569a0ab8c2cee8c8f9d02ec18550993ec3ed9ed655b138a27da3904ac2b4"
+  "control/student_actions.md": "eaa9569a0ab8c2cee8c8f9d02ec18550993ec3ed9ed655b138a27da3904ac2b4",
+  "notebooks/session_07_your_turn_addendum.ipynb": "91b839cf8f4f20ecf046b25a7bb024b81891dcfd73c26cefee7b4d08add4c0d5",
+  "session_07/your_turn_addendum/results.json": "050eefca20b3974387826c34564f559d3f5546e4db85021734d36d07749b6921",
+  "session_07/your_turn_addendum/README.md": "694abf8e5da1b4af2840ad254a5f5e3df9e06b2f5efab1f146d9fa758ae02aa0"
 }

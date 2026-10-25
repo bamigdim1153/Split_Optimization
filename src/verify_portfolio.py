@@ -9,7 +9,7 @@ def main():
             if '://' not in link and not (p.parent/link).exists():errors.append((str(p.relative_to(ROOT)),link))
     assert not errors,errors
     for p in (ROOT/'src').glob('*.py'):ast.parse(p.read_text(encoding='utf-8-sig'))
-    for name in ['session_06_english.ipynb','session_07_english.ipynb','NB1_Reproducibility_Magic_Tricks_english.ipynb','NB3_Case_Study_100_Percent_LITE_english.ipynb','session_07_complete_english.ipynb']:
+    for name in ['session_06_english.ipynb','session_07_english.ipynb','NB1_Reproducibility_Magic_Tricks_english.ipynb','NB3_Case_Study_100_Percent_LITE_english.ipynb','session_07_complete_english.ipynb','session_07_your_turn_addendum.ipynb']:
         nb=json.loads((ROOT/'notebooks'/name).read_text(encoding='utf-8'))
         cells=[c for c in nb['cells'] if c['cell_type']=='code']
         assert all(c['execution_count'] is not None for c in cells)
@@ -56,7 +56,11 @@ def main():
     ext=json.loads((ROOT/'session_07/course_complete/extension_results.json').read_text())
     assert ext['data_origin']=='PUBLIC_WISCONSIN_TEACHING_DATA' and len(ext['paired_ablation'])==3
     assert (ROOT/'session_06/evidence/executed_notebook_capture.png').stat().st_size>1000
-    report={'local_links'   :'PASS','python_and_notebook_syntax':'PASS','executed_course_notebooks':'PASS','synthetic_origin_hash_and_ids':'PASS','group_disjoint_holdout':'PASS','seven_seeds_42_runs':'PASS','repeatability':'PASS','documentation_check':'8/8; completeness only','private_company_records_included':False,'docker_run':'PASS: actual GitHub-hosted Docker build/run/artifact export; see container_ci_evidence.json','dvc_remote_test':'PASS: local push/clone/pull AND fresh public GitHub clone/HTTP DVC pull; identical SHA256','mini_review':'PASS:76 records,13 full-text reports,10 priority papers with Semantic Scholar evidence; bounded/post-hoc search limitations disclosed','prisma_official_package':'PASS: PRISMA2020 exported SVG/PNG/PDF in successful CI','reference_manager':'PASS: actual Zotero import13/tag view10','session7_extensions':'PASS: Exercises7-12 executed; overlapping-resample limits documented','session6_reflection':'PASS: student explicitly approved the translated statement; actual output capture included','nb4_workshop':'PASS: five seeds, MLflow, six actual automation commits and repeatability'}
+    extra=json.loads((ROOT/'session_07/your_turn_addendum/results.json').read_text())
+    assert len(extra['exercise7']['seeds'])==10 and extra['exercise9']['measured_features']==30 and extra['exercise9']['noise_features']==5000
+    manifest=json.loads((ROOT/'submission/file_hashes.json').read_text())
+    assert all(hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest for name,digest in manifest.items())
+    report={'local_links'    :'PASS','python_and_notebook_syntax':'PASS','executed_course_notebooks':'PASS','synthetic_origin_hash_and_ids':'PASS','group_disjoint_holdout':'PASS','seven_seeds_42_runs':'PASS','repeatability':'PASS','documentation_check':'8/8; completeness only','private_company_records_included':False,'docker_run':'PASS: actual GitHub-hosted Docker build/run/artifact export; see container_ci_evidence.json','dvc_remote_test':'PASS: local push/clone/pull AND fresh public GitHub clone/HTTP DVC pull; identical SHA256','mini_review':'PASS:76 records,13 full-text reports,10 priority papers with Semantic Scholar evidence; bounded/post-hoc search limitations disclosed','prisma_official_package':'PASS: PRISMA2020 exported SVG/PNG/PDF in successful CI','reference_manager':'PASS: actual Zotero import13/tag view10','session7_extensions':'PASS: Exercises7-12 plus explicit Your turn7/9 modifications executed; overlapping-resample limits documented','session6_reflection':'PASS: student explicitly approved the translated statement; actual output capture included','nb4_workshop':'PASS: five seeds, MLflow, six actual automation commits and repeatability'}
     (ROOT/'control/verification.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

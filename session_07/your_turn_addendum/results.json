@@ -1,0 +1,66 @@
+{
+  "data_origin": "PUBLIC_WISCONSIN_DATA_PLUS_SYNTHETIC_NOISE",
+  "exercise7": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "fancy_scores": [
+      0.951048951048951,
+      0.958041958041958,
+      0.972027972027972,
+      0.958041958041958,
+      0.9790209790209791,
+      0.9790209790209791,
+      0.9790209790209791,
+      0.965034965034965,
+      0.972027972027972,
+      0.972027972027972
+    ],
+    "weak_scores": [
+      0.8811188811188811,
+      0.9020979020979021,
+      0.9020979020979021,
+      0.9090909090909091,
+      0.9020979020979021,
+      0.9370629370629371,
+      0.9440559440559441,
+      0.8881118881118881,
+      0.916083916083916,
+      0.9300699300699301
+    ],
+    "fancy_mean": 0.9685314685314685,
+    "weak_mean": 0.9111888111888111,
+    "paired_gap": 0.05734265734265733,
+    "naive_paired_p": 9.004775381299117e-07
+  },
+  "exercise9": {
+    "measured_features": 30,
+    "noise_features": 5000,
+    "leaky_scores": [
+      0.9649122807017544,
+      0.9210526315789473,
+      0.956140350877193,
+      0.9385964912280702,
+      0.9734513274336283
+    ],
+    "clean_scores": [
+      0.9649122807017544,
+      0.9210526315789473,
+      0.956140350877193,
+      0.9385964912280702,
+      0.9734513274336283
+    ],
+    "leaky_mean": 0.9508306163639186,
+    "clean_mean": 0.9508306163639186
+  },
+  "interpretation": "A weak comparator can manufacture apparent superiority. Informative variables can mask leakage; a small gap does not validate the leaky branch. Overlapping resamples make the naive p-value illustrative, not independent replication. No mine data are involved."
+}

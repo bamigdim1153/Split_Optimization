@@ -53,3 +53,5 @@ The runner executes trusted local notebook code without Jupyter; do not run unre
 [Provenance and assistance](control/provenance.md) · [Final handoff](control/student_actions.md)
 
 The reflection was confirmed by the student. The individual-paper coordination rule and actual course-platform upload remain handoff actions. General Management permissions and real-data validation belong to the future mining study. The proposed calendar/budget are transparent assumptions, and no grade or operational saving is guaranteed.
+
+Additional Exercise7/9 Your turn modifications are executed in [the addendum](session_07/your_turn_addendum/README.md).

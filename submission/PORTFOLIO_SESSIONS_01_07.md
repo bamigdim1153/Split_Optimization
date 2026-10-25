@@ -531,3 +531,23 @@ All core and extension code cells executed successfully. In the paired 10-split 
 These are public Wisconsin teaching results. Overlapping resampled tests are dependent; naive paired p-values and the Holm demonstration are not independent scientific replications. Ablation bars show sample SD of paired differences, not confidence intervals. Estimator count is a capacity/budget proxy, not measured equal wall-clock compute. Baseline tuning occurs inside each resampled training set.
 
 The supplied documentation function returns 8/8 for the own synthetic card/datasheet. This checks structural completeness, not field validity or assessment approval. The Annex IV crosswalk is educational and does not establish legal applicability or conformity. Full executed notebook, per-comparison outputs, figures and bundles are in Session 7.
+
+
+<!-- PAGEBREAK -->
+# Session 7 — remaining Your turn modifications
+
+Both explicit modifications from the supplied extension notebook are now executed. Results use public Wisconsin teaching data; they do not use company records.
+
+## Exercise 7: untuned baseline C=0.001
+
+Ten paired split seeds: GBM mean accuracy=0.968531; weak baseline=0.911189; mean paired gap=0.057343; naive paired p=9.00478e-07. A favorable comparison against a deliberately weak model does not establish superiority over a fairly tuned comparator. Overlapping resamples make this p-value illustrative rather than independent scientific replication.
+
+## Exercise 9: thirty measured variables plus 5000 noise variables
+
+Leaky feature selection accuracy=0.950831; clean pipeline accuracy=0.950831. Informative features can mask the leak. A small observed gap does not validate selection performed on all rows; transformations that learn from data must stay inside training folds.
+
+## Scope of the mining prototype
+
+The 120 mining records were generated mathematically for the reproducibility exercise. They are not measured or anonymized company observations. Actual code execution produces the reported demonstration metrics, but those metrics do not validate P80 prediction or cost savings at the mine. The supplied materials request the student's own model/data details; they do not explicitly authorize replacing the intended mine study with a simulation. Instructor acceptance of that substitution is not established. Company-data analysis remains subject to permission.
+
+The study calendar and USD2,288 research budget are proposed planning assumptions, not approved company amounts or supplier quotations.
